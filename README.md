@@ -42,51 +42,64 @@ Banking_Credit_Risk_Prediction/
     ├── feature_importance.png
     ├── model_comparison.png
     └── risk_decile.png
+```
+
 ---
+
 ## 🔍 Project Workflow
 
 ### 1. Data Loading and Quality Assessment
+
 - Loaded customer-related datasets
 - Performed initial data-quality checks
 - Identified missing values and duplicate records
 
 ### 2. Data Cleaning
+
 - Cleaned inconsistent data
 - Handled missing values
 - Validated feature quality
 
 ### 3. Temporal Data Preparation
+
 - Prepared date-related variables
 - Performed temporal validation
 
 ### 4. Payment History Analysis
+
 - Analysed payment behaviour
 - Engineered DPD-related features
 - Created account-level payment features
 
 ### 5. Credit Enquiry Analysis
+
 - Analysed enquiry behaviour
 - Created enquiry-based customer features
 - Captured enquiry frequency and recency patterns
 
 ### 6. Risk Feature Engineering
+
 - Developed 30+ DPD-related risk features
 - Integrated account, payment and enquiry information
 
 ### 7. Demographic Feature Analysis
+
 - Analysed demographic characteristics
 - Performed semantic validation of features
 
 ### 8. Modelling Dataset Preparation
+
 - Performed final data-quality checks
 - Prepared the final modelling dataset
 
 ### 9. Preprocessing
+
 - Handled missing values
 - Encoded categorical variables
 - Identified and removed ID/contact-like features
 
 ### 10. Machine Learning Models
+
 The following models were evaluated:
 
 - Logistic Regression
@@ -94,6 +107,7 @@ The following models were evaluated:
 - Improved XGBoost
 
 ### 11. Model Evaluation
+
 Models were evaluated using:
 
 - ROC-AUC
