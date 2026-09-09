@@ -42,8 +42,6 @@ Banking_Credit_Risk_Prediction/
     ├── feature_importance.png
     ├── model_comparison.png
     └── risk_decile.png
-
-
 ---
 
 ## 🔍 Project Workflow
